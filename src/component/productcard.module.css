@@ -1,0 +1,27 @@
+
+.productcardcontainer{
+    padding:3px;
+    margin:4px;
+    background-color: #b0c4de;
+    height:230px; 
+    overflow:hidden; 
+    border-radius:0.5rem; 
+}
+@media (max-width:768px){
+    .productcardcontainer{
+        margin-left:40px;
+    }
+}
+.cardimage{
+    width:190px;
+    height:200px ;
+}
+@media (max-width:768px){
+    .cardimage{
+        width:250px;
+       
+    }
+}
+.cardtitle{
+    width:190px;
+}

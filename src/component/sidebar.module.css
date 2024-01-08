@@ -1,0 +1,22 @@
+.sidebarbox{
+    border-bottom: 1px solid #ccc;
+    padding: 2px;
+    margin:8px;
+}
+
+.sidebarboxdiv{
+    display:flex;
+    justify-content:space-between;
+}
+.sidebarboxspan{
+    font-weight:600;
+}
+.unselect{
+    text-decoration:underline;
+}
+.sidebaroption{
+    margin:1px;
+}
+.sidebaroptioninput{
+    margin:1px;
+}

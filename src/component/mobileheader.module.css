@@ -1,0 +1,48 @@
+.headercontainer {
+    border: 1px #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.headercontainerdiv {
+    display: flex;
+}
+.headerlogodiv {
+    width: 10%;
+    display: flex;
+    gap: 8px;
+    margin-top: 1px;
+}
+.slider{
+    width:30px;
+    height:30px;
+}
+.slidercontent{
+    /* "w-[12%] absolute border border-black p-2 mt-8 ml-6 font-serif cursor-pointer" */
+    width:12%;
+    position:absolute;
+    border:1px solid;
+    padding:4px;
+    margin-top:32px;
+    margin-left:28px;
+    cursor:pointer;
+    font-weight:500;
+}
+.h1hover:hover{
+    color: #4299e1;
+}
+.logoimage{
+    width:30px;
+    height:30px;
+}
+.logo{
+    width:90%;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+}
+.headerfunction{
+    display:flex;
+    gap:4px;
+    margin-top:4px;
+    margin-bottom:4px;
+}

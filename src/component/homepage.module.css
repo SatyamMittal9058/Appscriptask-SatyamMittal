@@ -1,0 +1,33 @@
+.bodycontainer {
+    width: 83.33%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+.sidebarcontainer {
+    display: flex;
+    margin-left: 32px;
+}
+
+
+.sidebarcontainerdiv {
+    width: calc(4/12 * 100%);
+}
+
+@media (max-width: 768px) {
+    .sidebarcontainerdiv {
+        width: calc(5/12 * 100%);
+    }
+}
+
+.sidebarcontainerdivdiv {
+    border: bottom 2px;
+    padding: 2px;
+}
+
+.sidebarcontainerinput {
+    margin-right: 1px;
+}

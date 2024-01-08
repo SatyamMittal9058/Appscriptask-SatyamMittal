@@ -1,0 +1,97 @@
+.mobilefootercontainer{
+    background-color: black;
+    color:white ; 
+    padding:30px;
+}
+.mobilefootercontainerdiv{
+    margin-bottom:16px;
+}
+.mobilefootercontainerh1{
+    margin:8px;
+}
+.mobilefootercontainerinput{
+    margin:10px;
+    padding:12px;
+}
+.mobilefootercontainerbutton{
+    border:1px solid;
+    padding:10px;
+}
+.callus{
+    margin:8px;
+    border-top:2px solid;
+}
+.callush1{
+    margin-top:16px;
+}
+.callusdiv{
+    display:flex;
+    margin-top:16px;
+    margin-bottom:16px;
+}
+.currency{
+    margin:8px;
+    border-top:2px solid;
+}
+.currencyh1{
+    margin-top:16px;
+}
+.currencyh2{
+    font-weight:500;
+    margin-top:16px;
+    margin-bottom:16px;
+}
+.metta{
+    margin:8px;
+    border-top:2px solid;
+}
+.mettadiv{
+    display:flex;
+    justify-content:space-between;
+    margin-top:16px;
+    margin-bottom:16px;
+    font-weight:bold;
+    font-size:30px;
+}
+.mettaspan{
+    margin-bottom:4px;
+}
+.quicklinks{
+    margin:8px;
+    border-top:2px solid;
+}
+.quicklinksdiv{
+    display:flex;
+    justify-content:space-between;
+    margin-top:16px;
+    margin-bottom:16px;
+    font-weight:bold;
+    font-size:30px;
+}
+.quicklinksspan{
+    margin-bottom:4px;
+}
+.follow{
+    margin:8px;
+    border-top:2px solid;
+}
+.followdiv{
+    display:flex;
+    justify-content:space-between;
+    margin-top:16px;
+    margin-bottom:16px;
+    font-weight:bold;
+    font-size:30px;
+}
+.followspan{
+    margin-bottom:4px;
+}
+.payment{
+    margin:8px;
+}
+.paymentspan{
+    display:flex;
+    flex-wrap:wrap;
+    margin:8px;
+    gap:2px
+}

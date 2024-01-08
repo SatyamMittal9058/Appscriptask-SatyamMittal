@@ -1,24 +1,15 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
-
+import HomePage from './component/HomePage';
+import UserContext from './utils/userContext';
 function App() {
+  const [toggle, setToggle]=useState(false);
   return (
+    <UserContext.Provider value={{toggle, setToggle}}>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <HomePage />
     </div>
+    </UserContext.Provider>
   );
 }
 

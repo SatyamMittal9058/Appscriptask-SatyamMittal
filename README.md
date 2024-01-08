@@ -1,4 +1,10 @@
 # Getting Started with Create React App
+# Make component for different functionality like header,footer,sidebar body
+# store all the images and logo in assets
+# use various hooks like useState,useEffect and useContext 
+# use Css functions to design the ui
+# css of all components is in module 
+# design all functions in website so that in future we make it fully functional
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
