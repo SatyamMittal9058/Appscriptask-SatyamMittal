@@ -8,94 +8,94 @@ import paypal from '../Assets/FooterLogo/Group 136192.png';
 import amex from '../Assets/FooterLogo/Group 136193.png';
 import apay from '../Assets/FooterLogo/Group 136194.png';
 import pay from '../Assets/FooterLogo/Group 136195.png';
-import mobilefooter from './mobilefooter.module.css';
+import mobilefooter from '../componentcss/mobilefooter.module.css';
 const MobileFooter = () => {
     
     const [showMetta, setShowMetta] = useState(false);
     const [showQuickLinks, setShowQuickLinks] = useState(false);
     const [showFollow, setShowFollow] = useState(false);
     return (
-        <div className={mobilefooter.mobilefootercontainer}>
-            <div className={mobilefooter.mobilefootercontainerdiv}>
-                <h1 className={mobilefooter.mobilefootercontainerh1}>BE THE FIRST TO KNOW</h1>
-                <h1 className={mobilefooter.mobilefootercontainerh1}>Sign up for update from metta muse</h1>
+        <div className={mobilefooter.container}>
+            <div className={mobilefooter.innerContainer}>
+                <h3>BE THE FIRST TO KNOW</h3>
+                <h4>Sign up for update from metta muse</h4>
                 <span>
-                    <input className={mobilefooter.mobilefootercontainerinput} type="text" placeholder="Enter your Email" />
-                    <button className={mobilefooter.mobilefootercontainerbutton}>Subcribe</button>
+                    <input className={mobilefooter.emailInputBox} type="text" placeholder="Enter your Email" />
+                    <button className={mobilefooter.subscribeButton}>Subcribe</button>
                 </span>
             </div>
             <div>
-                <div className={mobilefooter.callus}>
-                    <h1 className={mobilefooter.callush1}>CALL US</h1>
-                    <div className={mobilefooter.callusdiv}>
-                        <h2>+1154517784</h2>
-                        <h2>customercare@mettamuse.com</h2>
+                <div className={mobilefooter.contactContainer}>
+                    <h3>CALL US</h3>
+                    <div>
+                        <p>+1154517784</p>
+                        <p>customercare@mettamuse.com</p>
                     </div>
                 </div>
-                <div className={mobilefooter.currency}>
-                    <h1 className={mobilefooter.currencyh1}>CURRENCY</h1>
-                    <h2 className={mobilefooter.currencyh2}>+USD</h2>
+                <div className={mobilefooter.currencyContainer}>
+                    <h3>CURRENCY</h3>
+                    <p>+USD</p>
                 </div>
-                <div className={mobilefooter.metta}>
-                    <div className={mobilefooter.mettadiv}>
-                        <span className={mobilefooter.mettaspan}>metta musse</span>
-                        <span onClick={() => setShowMetta(!showMetta)}>
+                <div className={mobilefooter.mettamusseContainer}>
+                    <div>
+                        <p>metta musse</p>
+                        <p onClick={() => setShowMetta(!showMetta)}>
                             {showMetta ? <FontAwesomeIcon icon={faChevronUp} /> : <FontAwesomeIcon icon={faChevronDown} />}
-                        </span>
+                        </p>
                     </div>
                     {showMetta &&
                         <>
-                            <h1 >About Us</h1>
-                            <h1 >Stories</h1>
-                            <h1 >Artisans</h1>
-                            <h1 >Boutiques</h1>
-                            <h1 >Contact Us</h1>
-                            <h1 >EU Compliances Docs</h1>
+                            <p >About Us</p>
+                            <p >Stories</p>
+                            <p >Artisans</p>
+                            <p >Boutiques</p>
+                            <p >Contact Us</p>
+                            <p >EU Compliances Docs</p>
                         </>
                     }
                 </div>
-                <div className={mobilefooter.quicklinks}>
-                    <div className={mobilefooter.quicklinksdiv}>
-                        <span className={mobilefooter.quicklinkspan}>QuickLinks</span>
-                        <span onClick={() => setShowQuickLinks(!showQuickLinks)}>
+                <div className={mobilefooter.quickLinkContainer}>
+                    <div>
+                        <p>QuickLinks</p>
+                        <p onClick={() => setShowQuickLinks(!showQuickLinks)}>
                             {showQuickLinks ? <FontAwesomeIcon icon={faChevronUp} /> : <FontAwesomeIcon icon={faChevronDown} />}
-                        </span>
+                        </p>
                     </div>
                     {showQuickLinks &&
                         <>
-                            <h1>Terms and Conditions</h1>
-                            <h1>Order& Shipping</h1>
-                            <h1>Join/Login as Seller</h1>
-                            <h1>Payment & Pricing</h1>
-                            <h1>Return & Refunds</h1>
-                            <h1>FAQs</h1>
-                            <h1>Privacy Policy</h1>
+                            <p>Terms and Conditions</p>
+                            <p>Order& Shipping</p>
+                            <p>Join/Login as Seller</p>
+                            <p>Payment & Pricing</p>
+                            <p>Return & Refunds</p>
+                            <p>FAQs</p>
+                            <p>Privacy Policy</p>
                         </>
                     }
                 </div>
-                <div className={mobilefooter.follow}>
-                    <div className={mobilefooter.followdiv}>
-                        <span className={mobilefooter.followspan}>FollowUs</span>
-                        <span onClick={() => setShowFollow(!showFollow)}>
+                <div className={mobilefooter.followContainer}>
+                    <div>
+                        <p>FollowUs</p>
+                        <p onClick={() => setShowFollow(!showFollow)}>
                             {showFollow ? <FontAwesomeIcon icon={faChevronUp} /> : <FontAwesomeIcon icon={faChevronDown} />}
-                        </span>
+                        </p>
                     </div>
                     {showFollow &&
                         <>
-                            <img alt="" src={socialmedia}></img>
+                            <img alt="socialmedia" src={socialmedia}></img>
                         </>
                     }
                 </div>
-                    <h1 className={mobilefooter.payment}>metta muse ACCEPTS</h1>
-                    <span className={mobilefooter.paymentspan}>
-                        <img alt="" src={gpay}></img>
-                        <img alt="" src={mastercard}></img>
-                        <img alt="" src={paypal}></img>
-                        <img alt="" src={amex}></img>
-                        <img alt="" src={apay}></img>
-                        <img alt="" src={pay}></img>
+                    <h1 className={mobilefooter.paymentOption}>metta muse ACCEPTS</h1>
+                    <span className={mobilefooter.payment}>
+                        <img alt="gpay" src={gpay}></img>
+                        <img alt="masterCard" src={mastercard}></img>
+                        <img alt="paypal" src={paypal}></img>
+                        <img alt="amex" src={amex}></img>
+                        <img alt="apay" src={apay}></img>
+                        <img alt="pay" src={pay}></img>
                     </span>
-                    <h1>Copyright @ 2023 mettamuse.All rights reserved</h1>
+                    <p>Copyright @ 2023 mettamuse.All rights reserved</p>
             </div>
         </div>
     )

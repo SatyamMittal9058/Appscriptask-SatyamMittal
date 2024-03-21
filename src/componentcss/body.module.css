@@ -1,9 +1,9 @@
-.productsbody{
-    margin-left:10px;
+.bodyContainer{
+    margin-left:5px;
     margin-bottom:5px;
 }
 
-.productsbodycard{
+.bodyCard{
     display:flex;
     flex-wrap:wrap;
     gap:4px;

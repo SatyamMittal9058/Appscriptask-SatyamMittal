@@ -1,28 +1,28 @@
 import { useContext } from "react"
 import UserContext from "../utils/userContext"
-import recommend from "./recommend.module.css";
+import recommend from "../componentcss/recommend.module.css";
 const Recommend = () => {
-    const showToggle=useContext(UserContext);
-    const handleHide=()=>{
+    const showToggle = useContext(UserContext);
+    const handleHide = () => {
         showToggle.setToggle(!showToggle.toggle);
     }
     return (
         <div>
-            <div className={recommend.recommendbox}>
-                <div className={recommend.recommendboxdiv}>
-                <button className={recommend.recommendfilterbutton}onClick={handleHide}>
-                    {
-                        showToggle.toggle?"< HIDE FILTER":"> SHOW FILTER"
-                    }
+            <div className={recommend.container}>
+                <div className={recommend.buttonContainer}>
+                    <button className={recommend.filterButton} onClick={handleHide}>
+                        {
+                            showToggle.toggle ? "< HIDE FILTER" : "> SHOW FILTER"
+                        }
                     </button>
                 </div>
-                <select className={recommend.recommendselect}>
-                    <option className={recommend.recommendoption}>Recommend</option>
-                    <option className={recommend.recommendoption}>Newest First</option>
-                    <option className={recommend.recommendoption}>Price Low to High</option>
-                    <option className={recommend.recommendoption}>Price High to Low</option>
+                <select className={recommend.selectButton}>
+                    <option>Recommend</option>
+                    <option>Newest First</option>
+                    <option>Price Low to High</option>
+                    <option>Price High to Low</option>
                 </select>
-                
+
             </div>
         </div>
 

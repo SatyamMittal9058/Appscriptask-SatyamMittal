@@ -1,22 +1,25 @@
-.sidebarbox{
+.container{
     border-bottom: 1px solid #ccc;
     padding: 2px;
     margin:8px;
 }
 
-.sidebarboxdiv{
+.filters{
     display:flex;
     justify-content:space-between;
 }
-.sidebarboxspan{
+.filterName{
     font-weight:600;
 }
-.unselect{
+.unselectOption{
     text-decoration:underline;
+    font-size:16px;
+    font-weight:400;
+    margin:2px;
 }
-.sidebaroption{
+.filterOptions{
     margin:1px;
 }
-.sidebaroptioninput{
-    margin:1px;
+.optionName{
+    margin:8px;
 }

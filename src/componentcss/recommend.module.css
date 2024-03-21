@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin:30px;
+    border-top: 0.5px solid #ad9d9d;
+    border-bottom:0.5px solid #ad9d9d;
+    border-radius:16px;
+    padding: 16px;
+}
+.buttonContainer{
+    display: flex;
+    gap:10px;
+}
+.filterButton{
+    text-decoration: underline;
+    border-radius:8px;
+}
+.selectButton{
+    display: flex; 
+    padding: 10px;
+    border-radius:8px;
+}
+

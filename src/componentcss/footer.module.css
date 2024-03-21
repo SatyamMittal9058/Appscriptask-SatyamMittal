@@ -1,0 +1,60 @@
+.container {
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+}
+.upperContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.leftPartHeading{
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.emailInputBox {
+    padding: 12px;
+    border-radius: 8px;
+    margin-top:32px;
+    margin-bottom: 32px;
+}
+
+.subscribeButton {
+    padding:12px;
+    border: 2px solid #7c6e6ef9;
+    border-radius: 8px;
+    margin:12px;
+    font-size:16px;
+}
+
+.contactHeading {
+    margin: 1px;
+    font-weight: 500;
+    font-size:24px;
+}
+.currencyHeading {
+    margin: 1px;
+    font-weight: 500;
+    font-size:24px;
+}
+
+.lowerContainer {
+    border-top: 2px solid;
+    margin-top: 16px;
+    display: flex;
+}
+
+.sectionWidth {
+    width: 33.333333%;
+}
+
+.sectionHeadings {
+    margin-top: 32px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.paymentOptions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}

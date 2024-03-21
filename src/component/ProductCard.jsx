@@ -1,16 +1,20 @@
 import React from 'react'
-import productcard from './productcard.module.css'
+import productcard from '../componentcss/productcard.module.css'
+import heart from "../Assets/HeaderLogo/heart.png";
 const ProductCard = ({ data }) => {
     return (
-        <div>
-            <div className={productcard.productcardcontainer}>
+        // <div>
+            <div className={productcard.cardContainer}>
                 <div>
-                    <img className={productcard.cardimage} alt="" src={data.image}></img>
-                    <div className={productcard.cardtitle}><p>{data.title}</p></div>
+                    <img className={productcard.cardImage} alt="" src={data.image}></img>
+                    <div className={productcard.cardTitle}>
+                        <p>{data.title}</p>
+                        <img alt="heart" src={heart}></img>
+                    </div>
                 </div>
             </div>
 
-        </div>
+        // </div>
     )
 }
 

@@ -1,51 +1,49 @@
-.mobilefootercontainer{
+.container{
     background-color: black;
     color:white ; 
     padding:30px;
 }
-.mobilefootercontainerdiv{
+.innerContainer{
     margin-bottom:16px;
 }
-.mobilefootercontainerh1{
+.innerContainer h3{
+    margin:8px;
+    font-size:18px;
+}
+.innerContainer h4{
     margin:8px;
 }
-.mobilefootercontainerinput{
+.emailInputBox{
     margin:10px;
     padding:12px;
+    border-radius:8px;
 }
-.mobilefootercontainerbutton{
+.subscribeButton{
     border:1px solid;
-    padding:10px;
+    padding:12px;
+    border-radius:8px;
 }
-.callus{
+.contactContainer{
     margin:8px;
     border-top:2px solid;
 }
-.callush1{
-    margin-top:16px;
+.contactContainer h3{
+    font-size:24px;
 }
-.callusdiv{
-    display:flex;
-    margin-top:16px;
-    margin-bottom:16px;
-}
-.currency{
+
+.currencyContainer{
     margin:8px;
     border-top:2px solid;
 }
-.currencyh1{
-    margin-top:16px;
+.currencyContainer h3{
+    font-size:24px;
 }
-.currencyh2{
-    font-weight:500;
-    margin-top:16px;
-    margin-bottom:16px;
-}
-.metta{
+
+.mettamusseContainer{
     margin:8px;
     border-top:2px solid;
 }
-.mettadiv{
+.mettamusseContainer div{
     display:flex;
     justify-content:space-between;
     margin-top:16px;
@@ -53,14 +51,15 @@
     font-weight:bold;
     font-size:30px;
 }
-.mettaspan{
+.mettamusseContainer div p{
     margin-bottom:4px;
+    margin-top:4px;
 }
-.quicklinks{
+.quickLinkContainer{
     margin:8px;
     border-top:2px solid;
 }
-.quicklinksdiv{
+.quickLinkContainer div{
     display:flex;
     justify-content:space-between;
     margin-top:16px;
@@ -68,14 +67,15 @@
     font-weight:bold;
     font-size:30px;
 }
-.quicklinksspan{
+.quickLinkContainer div p{
     margin-bottom:4px;
+    margin-top:4px;
 }
-.follow{
+.followContainer{
     margin:8px;
     border-top:2px solid;
 }
-.followdiv{
+.followContainer div{
     display:flex;
     justify-content:space-between;
     margin-top:16px;
@@ -83,15 +83,16 @@
     font-weight:bold;
     font-size:30px;
 }
-.followspan{
+.followContainer div p{
     margin-bottom:4px;
+    margin-top:4px;
+}
+.paymentOption{
+    margin:8px;
 }
 .payment{
-    margin:8px;
-}
-.paymentspan{
     display:flex;
     flex-wrap:wrap;
     margin:8px;
-    gap:2px
+    gap:3px;
 }
